@@ -7,76 +7,68 @@
         <title>Landing Page</title>
     </head>
     <body>
+        <header class="header-links">
+            <nav class="navbar">
+                <div class="logo">Header Logo</div>
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">header link one</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">header link two</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">header link three</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <main>
-            <div class="top-section">
-                <div class="header_links">
-                    <div class="left-section">
-                        <p>Header Logo</p>
-                    </div>
-                    <div class="right-section">
-                        <ul>
-                            <li>header link-one</li>
-                            <li>header link-two</li>
-                            <li>header link-three</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header_description">
+            <section class="hero">
+                <div class="hero-container">
                     <div class="left-side">
-                        <h1>This website is awesome</h1>
-                        <p>
-                            This website has some subtext that goes here under
-                            the main title. It's a smaller font and the color is
-                            lower contrast
-                        </p>
-                        <div class="header-button">
-                            <button>Sign Up</button>
+                        <div class="text-container">
+                            <h1>This website is awesome</h1>
+                            <p>
+                                This website has some subtext that goes here
+                                under the main title. It's a smaller font and
+                                the color is lower contrast
+                            </p>
                         </div>
+                        <button class="button">Sign Up</button>
                     </div>
-
-                    <div class="right-side"></div>
+                    <div class="right-side">
+                        this is a placeholder for an image
+                    </div>
                 </div>
-            </div>
-
-            <div class="middle-section">
-                <div class="info-header">
-                    <h1>Some random information.</h1>
-                </div>
-
-                <div class="image-container">
-                    <div class="container">
-                        <div class="border-sqr"></div>
-                        <div class="text">
+            </section>
+            <section class="random-info">
+                <div class="random-info-container">
+                    <h2>Some random information.</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="border-sqr"></div>
                             <p>
                                 this is some subtext under an illustration or
                                 image
                             </p>
                         </div>
-                    </div>
-
-                    <div class="container">
-                        <div class="border-sqr"></div>
-                        <div class="text">
+                        <div class="card">
+                            <div class="border-sqr"></div>
                             <p>
                                 this is some subtext under an illustration or
                                 image
                             </p>
                         </div>
-                    </div>
-
-                    <div class="container">
-                        <div class="border-sqr"></div>
-                        <div class="text">
+                        <div class="card">
+                            <div class="border-sqr"></div>
                             <p>
                                 this is some subtext under an illustration or
                                 image
                             </p>
                         </div>
-                    </div>
-
-                    <div class="container">
-                        <div class="border-sqr"></div>
-                        <div class="text">
+                        <div class="card">
+                            <div class="border-sqr"></div>
                             <p>
                                 this is some subtext under an illustration or
                                 image
@@ -84,21 +76,22 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="quote">
-                <p class="inspiring-quote">
-                    This is an inspiring quote, or a testimonial from a
-                    customer. Maybe it’s just filling up space, or maybe people
-                    will actually read it. Who knows? All I know is that it
-                    looks nice.
-                    <br />
-                    <b id="author">-Thor, God of Thunder</b>
-                </p>
-            </div>
-
-            <div class="section_sign-up">
-                <div class="signup">
+            </section>
+            <section class="quote">
+                <div class="quote-container">
+                    <p class="inspiring-quote">
+                        This is an inspiring quote, or a testimonial from a
+                        customer. Maybe it’s just filling up space, or maybe
+                        people will actually read it. Who knows? All I know is
+                        that it looks nice.
+                    </p>
+                    <p class="author">
+                        <b>-Thor, God of Thunder</b>
+                    </p>
+                </div>
+            </section>
+            <section class="sign-up">
+                <div class="signup-container">
                     <div class="signup-text">
                         <h3>Call to action! It’s time</h3>
                         <p>
@@ -106,15 +99,12 @@
                             right over there!
                         </p>
                     </div>
-                    <div>
-                        <button class="signup-button">Sign Up</button>
-                    </div>
+                    <button class="button button-outline">Sign Up</button>
                 </div>
-            </div>
-
-            <div class="footer_copyright">
-                <footer>Copyright © The Odin Project 2021</footer>
-            </div>
+            </section>
         </main>
+        <footer class="footer_copyright">
+            <p>Copyright &copy; The Odin Project 2021</p>
+        </footer>
     </body>
 </html>
